@@ -2,10 +2,10 @@ public class IfElseDemo2 {
 
     public static void main(String[] args) {
 
-        int a = 200;
+        int a = 100;
         int b = 200 ;
 
-        if(a>b) // if else if ladder
+        if(a>b) // if ... else if ladder
         {
             System.out.println("a is greater");
         }
