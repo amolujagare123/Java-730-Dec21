@@ -1,3 +1,5 @@
+package loops;
+
 public class EvenOddDemo {
 
     public static void main(String[] args) {

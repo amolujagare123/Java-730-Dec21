@@ -1,13 +1,15 @@
-public class WhileLoop {
+package loops;
+
+public class WhileLoop2 {
 
     public static void main(String[] args) {
 
-        int i = 1;
+        int i = 10;
 
-        while (i<=10)
+        while (i>=1)
         {
             System.out.println(i);
-            i = i + 1;
+            i = i - 1;
         }
 
     }

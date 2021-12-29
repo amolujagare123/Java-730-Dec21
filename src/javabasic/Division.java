@@ -1,3 +1,5 @@
+package javabasic;
+
 public class Division {
 
     public static void main(String[] args) {
@@ -8,7 +10,7 @@ public class Division {
 
         c = (double) a / b; // type casting
 
-        System.out.println("Division = " + c);
+        System.out.println("javabasic.Division = " + c);
 
 
     }
