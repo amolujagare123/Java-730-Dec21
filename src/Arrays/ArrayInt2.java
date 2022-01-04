@@ -8,9 +8,11 @@ public class ArrayInt2 {
 
      /*   for (int i=0;i<a.length;i++)
             System.out.println(a[i]);*/
-
+/*
         for(int y:a)
-            System.out.println(y);
+            System.out.println(y);*/
+
+        System.out.println(a);
 
     }
 }

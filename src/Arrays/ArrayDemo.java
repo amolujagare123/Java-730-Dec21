@@ -17,10 +17,10 @@ public class ArrayDemo {
         int l = a.length;
         //System.out.println(a[2]);
 
-        /*for(int i=0;i<a.length;i++)
+        for(int i=0;i<a.length;i++)
         {
             System.out.println(a[i]);
-        }*/
+        }
 
         for(int x:a) // for each loop
             System.out.println(x);
