@@ -6,7 +6,7 @@ public class Java1 {
     public int a;
     public double d;
     private char c;
-    String str; // data member
+    protected String str; // data member
 
     void display() // member function
     {
