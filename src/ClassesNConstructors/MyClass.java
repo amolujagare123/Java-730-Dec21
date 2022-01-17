@@ -2,12 +2,12 @@ package ClassesNConstructors;
 
 public class MyClass {
 
-    int a;
-    double d;
-    char c;
-    String str; // data member
+    public int a;
+    public double d;
+    public char c;
+    public String str; // data member
 
-    void display() // member function
+    public void display() // member function
     {
         System.out.println("a="+a);
         System.out.println("d="+d);
