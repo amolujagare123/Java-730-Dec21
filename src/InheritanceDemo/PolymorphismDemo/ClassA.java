@@ -10,7 +10,7 @@ public class ClassA {
 
 class ClassB extends ClassA
 {
-    void myDisplay()
+     void myDisplay() // you cant decrease the scope of the method
     {
         System.out.println("ClassB Display");
     }
