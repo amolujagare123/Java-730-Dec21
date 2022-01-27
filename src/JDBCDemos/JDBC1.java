@@ -21,10 +21,10 @@ public class JDBC1 {
      // 3.  Creating statement
         Statement st = con.createStatement();
 
-     // 4.  Executing query
+     // 4.  Executing query (DML queries)
 
        // String sql = "insert into student1 values(11,'Jitendra','IT','56')";
-        String sql = "insert into persons values(3,'sneha','more',25)";
+        String sql = "update persons set age=40 where id =1";
         // String sql1 = "insert into student1 values(11,\"Jitendra\",\"IT\",\"56\")";
 
         // try update and delete
