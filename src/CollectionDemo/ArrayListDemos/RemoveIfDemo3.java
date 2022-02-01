@@ -28,9 +28,9 @@ public class RemoveIfDemo3 {
         System.out.println(al);
 
        // remove elements which are vowels
+        al.removeIf(ch -> ch =='a' || ch =='e' || ch =='i' || ch =='o' || ch =='u');
 
-
-
+        System.out.println(al);
 
 
 
